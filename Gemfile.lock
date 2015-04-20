@@ -51,6 +51,8 @@ GEM
     colorize (0.7.5)
     erubis (2.7.0)
     execjs (2.0.2)
+    haml (4.0.6)
+      tilt
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -70,6 +72,9 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
+    passenger (5.0.6)
+      rack
+      rake (>= 0.8.1)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -140,8 +145,10 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   coffee-rails (~> 4.0.0)
+  haml
   jbuilder (~> 1.2)
   jquery-rails
+  passenger
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
