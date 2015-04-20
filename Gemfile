@@ -40,6 +40,8 @@ gem 'unicorn'
 
 gem 'passenger'
 
+gem 'haml'
+
 # Use Capistrano for deployment
 group :development do
   gem 'capistrano'
