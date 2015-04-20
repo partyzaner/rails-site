@@ -4,4 +4,11 @@
       = yield :page_title unless :page_title
 
     %body
-      %p This is test data for application
+      %section.section-header
+        %p This is test data for application
+      %section.section-left
+        %ul
+          %li
+            Future menu
+      %section.section-center
+        = yield
