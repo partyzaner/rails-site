@@ -1,5 +1,7 @@
+- content_for :page_title do
+  = t('index.title')
 #header
-  %h1 Header for main page
+  %h1= t('index.header1')
 
 #content
-  %p Content of main page
+  %p= t('index.content')

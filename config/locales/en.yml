@@ -21,3 +21,7 @@
 
 en:
   hello: "Hello world"
+  index:
+    title: Title for landing page
+    header1: Header for main page
+    content: Content of main page
